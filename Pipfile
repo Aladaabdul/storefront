@@ -7,8 +7,22 @@ name = "pypi"
 django = "*"
 django-debug-toolbar = "*"
 mysqlclient = "*"
+drf-nested-routers = "*"
+django-filter = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+pillow = "*"
+django-templated-mail = "*"
+redis = "*"
+celery = "*"
+whitenoise = "*"
+gunicorn = "*"
+waitress = "*"
 
 [dev-packages]
+pytest = "*"
+pytest-django = "*"
+locust = "*"
 
 [requires]
 python_version = "3.11"
